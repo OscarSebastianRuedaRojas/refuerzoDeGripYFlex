@@ -1,0 +1,116 @@
+header {
+    display: flex;
+    width: 100%;
+    border: dotted blue;
+}
+.lista {
+    display: flex;
+    width: 100%;
+    border: dotted blue;
+    justify-content: flex-end;
+}
+.lista nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.lista nav ul li{
+    margin: 0px 30px;
+    list-style-type: none;
+}
+.menu1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: dotted blue;
+    Background-image: url(../../storage/img/Iphone.png);
+    background-size: contain;
+    
+}
+
+.menu1 .submenu1{
+    border: solid red;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    border: solid blue;
+}
+.menu2 .submenu2{
+    border: dotted red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.menu2 .submenu3{
+    width: 50%;
+    border: dotted red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.menu2 .submenu3 div{
+    display: flex;
+    flex-direction: row;
+}
+.menu2 .submenu3 div picture{
+    margin-right: 35px;
+}
+.menu3{
+    display: flex;
+    justify-content: space-between;
+    border: solid blue;
+}
+.menu3 .submenu4{
+    width: 50%;
+    border: dotted red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu3 .submenu4 .tabla{
+    height: auto;
+    overflow-y: scroll;
+}
+.menu4 .submenu4 div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.menu3 .submenu4 .redesSociales{
+    border: solid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: space-between;
+}
+.menu3 .submenu4 .redesSociales li{
+    list-style: none;
+    margin: 15px;
+}
+
+.menu3 .submenu5{
+    width: 50%;
+    border: dotted red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu4 {
+    display: flex;
+    justify-content: space-between;
+    border: solid blue;
+}
+.tabla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid red;
+    width: 25%;
+}
