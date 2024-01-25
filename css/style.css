@@ -297,4 +297,9 @@ footer p{
 .LugarVacio{
     width: 100%;
     height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.LugarVacio div{
+    margin: 0 50px;
 }
