@@ -61,7 +61,7 @@ header {
     list-style-type: none;
 }
 .menu1 {
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -94,7 +94,7 @@ header {
     padding-inline: 22px;
     padding-block: 12px;
     color: white;
-    margin-top: 20%;
+    margin-top: 330px;
     border: none;
     outline: none;
     border-radius: 980px;
